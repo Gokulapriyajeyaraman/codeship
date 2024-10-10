@@ -1,0 +1,162 @@
+.gallery {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.image {
+  border: 1px solid white;
+  position: relative;
+  
+}
+.setting{
+  position:absolute;
+  top: 230px;
+  left: 260px;
+}
+
+.timer{
+  position:absolute;
+  top: 185px;
+  left: 240px;
+  z-index:2;
+  border:1px solid gray;
+  border-radius: 15%;
+  background-color: gray;
+  padding: 2px;
+  
+  color:#ffff;
+  font:12px Roboto,Arial,sans-sherif;
+}
+.main_sub{
+  background-color: gray;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  position:absolute;
+  visibility: hidden;
+  top:70px;
+  left:240px;
+}
+.subtitle{
+  position:absolute;
+  visibility: hidden;
+  width: 16px;
+  height: 15px;
+  z-index: 1;
+  padding: 9px;
+  color: white;
+}
+.mainmute{
+  width: 35px;
+  height: 35px;
+  background-color: gray;
+  border-radius: 50%;
+  position:absolute;
+  visibility: hidden;
+  top:25px;
+  left:240px;
+}
+.mute{
+  position:absolute;
+  visibility: hidden;
+  z-index: 1;
+  padding: 10px;
+  width: 16px;
+  height: 15px;
+ color: white;
+}
+
+.image:hover .subtitle{
+  visibility: visible;
+  
+}
+.image:hover .mute{
+  visibility: visible;
+}
+.image:hover .mainmute{
+  visibility: visible;
+}
+.image:hover .main_sub{
+  visibility: visible;
+}
+img {
+  border: 1px solid white;
+  border-radius: 10%;
+  
+}
+
+.alignment {
+  display: flex;
+  justify-content: baseline;
+  gap: 1em;
+}
+
+@media (max-width: 800px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  
+}
+
+
+input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 400px;
+  width: 400px;
+  border-radius: 20px;
+  height: 30px;
+  padding-left: 10px;
+
+
+}
+
+.list {
+  border: 1px solid black;
+  border-radius: 20%;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: rgba(128, 128, 128, 0.5);
+
+}
+.reduce{
+  border-radius: 50%;
+}
+.search {
+  display: flex;
+  gap: 2em;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+@media (max-width:800px) {
+  .forms {
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+}
+pre{
+  font:12px Roboto,Arial,sans-sherif;
+  line-height: 1.6;
+  
+}
+.image_alignment{
+  height:210px;
+  width:290px;
+  object-fit: fill;
+}
+.youtube{
+  height: 210px;
+  width: 290px;
+  
+}
+.object{
+  height: 100%;
+  width: 100%;
+  object-fit:fill;
+}
+
