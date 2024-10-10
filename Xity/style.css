@@ -16,10 +16,10 @@ h2{
     font-family: 'Inter';
 }
 .image_class1{
-    background-image: url('image11.jpg');
+    background-image: url('Asserts/image11.jpg');
     width: 360px;
     height: 260px;
-    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('image11.jpg');
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('Asserts/image11.jpg');
     transition: transform 0.3s ease-out;
     border-radius: 10px;
 }
@@ -28,10 +28,10 @@ h2{
     border-radius: 10px;
 }
 .image_class2{
-    background-image: url('image22.jpg');
+    background-image: url('Asserts/image22.jpg');
     width: 360px;
     height: 260px;
-    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('image22.jpg');
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('Asserts/image22.jpg');
     transition: transform 0.3s ease-out;
     border-radius: 10px;
 }
@@ -40,10 +40,10 @@ h2{
     border-radius: 10px;
 }
 .image_class3{
-    background-image: url('image33.jpg');
+    background-image: url('Asserts/image33.jpg');
     width: 360px;
     height: 260px;
-    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('image33.jpg');
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('Asserts/image33.jpg');
     transition: transform 0.3s ease-out;
     border-radius: 10px;
 }
@@ -52,10 +52,10 @@ h2{
     border-radius: 10px;
 }
 .image_class4{
-    background-image: url('image44.jpg');
+    background-image: url('Asserts/image44.jpg');
     width: 360px;
     height: 260px;
-    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('image44.jpg');
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('Asserts/image44.jpg');
     transition: transform 0.3s ease-out;
     border-radius: 10px;
 }
@@ -64,10 +64,10 @@ h2{
     border-radius: 10px;
 }
 .image_class5{
-    background-image: url('image55.jpg');
+    background-image: url('Asserts/image55.jpg');
     width: 745px;
     height: 260px;
-    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('image55.jpg');
+    background-image: linear-gradient(rgba(6, 27, 65, 0) 0%, rgba(6, 27, 65, 0.95) 100%),url('Asserts/image55.jpg');
     transition: transform 0.3s ease-out;
     border-radius: 10px;
 }
